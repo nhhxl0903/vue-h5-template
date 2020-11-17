@@ -23,6 +23,12 @@ export const constantRouterMap = [
         name: 'About',
         component: () => import('@/views/home/about'),
         meta: { title: '关于我', keepAlive: false }
+      },
+      {
+        path: '/liff',
+        name: 'Liff',
+        component: () => import('@/views/home/liff'),
+        meta: { title: 'Line-mini-app', keepAlive: false }
       }
     ]
   }

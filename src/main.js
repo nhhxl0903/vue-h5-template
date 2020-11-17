@@ -22,7 +22,8 @@ import 'lib-flexible/flexible.js'
 // filters
 import './filters'
 Vue.config.productionTip = false
-
+import liff from '@line/liff'
+Vue.prototype.$liff = liff
 new Vue({
   el: '#app',
   router,

@@ -32,6 +32,13 @@ export default {
             name: 'About'
           },
           icon: 'user-o'
+        },
+        {
+          title: 'liff',
+          to: {
+            name: 'Liff'
+          },
+          icon: 'user-o'
         }
       ]
     }
